@@ -66,6 +66,10 @@ function App() {
                   } else {
                     inputRef.current.classList.remove('danger')
                   }
+
+                  if (inputRef.current.value.length === 0) {
+                    inputRef.current.classList.remove('danger')
+                  }
                 }}
               />
             </div>

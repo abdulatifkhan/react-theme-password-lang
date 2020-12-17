@@ -6,6 +6,7 @@
 .site-body {
   width: 218vh;
   height: 100vh;
+  transition: all 0.5s ease;
 }
 
 .conatiner {
